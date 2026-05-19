@@ -14,4 +14,7 @@ rm -rf hardware/mediatek && git clone https://github.com/LineageOS/android_hardw
 # Hardware Xiaomi
 rm -rf hardware/xiaomi && git clone  https://github.com/LineageOS/android_hardware_xiaomi.git  hardware/xiaomi
 
+#IMS
+git clone https://github.com/techyminati/android_vendor_mediatek_ims vendor/mediatek/ims/
+
 
