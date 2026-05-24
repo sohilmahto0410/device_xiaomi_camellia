@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_camellia.mk
+    $(LOCAL_DIR)/yaap_waffle.mk
+
+COMMON_LUNCH_CHOICES := \
+    yaap_waffle-user \
+    yaap_waffle-userdebug \
+    yaap_waffle-eng
