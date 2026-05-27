@@ -6,4 +6,4 @@
 
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/custom_lineage.mk
+    $(LOCAL_DIR)/lineage_camellia.mk
