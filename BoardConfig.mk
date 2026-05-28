@@ -6,6 +6,7 @@
 
 DEVICE_PATH := device/xiaomi/camellia
 KERNEL_PATH := $(DEVICE_PATH)-kernel
+TARGET_KERNEL_SOURCE :=
 
 BUILD_BROKEN_DUP_RULES := true
 
