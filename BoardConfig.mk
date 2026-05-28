@@ -4,9 +4,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+TARGET_KERNEL_SOURCE :=
 DEVICE_PATH := device/xiaomi/camellia
 KERNEL_PATH := $(DEVICE_PATH)-kernel
-TARGET_KERNEL_SOURCE :=
+
 
 BUILD_BROKEN_DUP_RULES := true
 
