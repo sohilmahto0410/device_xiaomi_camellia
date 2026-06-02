@@ -19,13 +19,13 @@ TARGET_SCREEN_WIDTH := 1080
 
 #InfinityX
 # Maintainer Name
-INFINITY_MAINTAINER := "sohilmahto" (Default: Unknown)
+INFINITY_MAINTAINER := "sohilmahto" 
 
 # Whether the device supports Fingerprint On Display
-TARGET_HAS_UDFPS := false (Default: false)
+TARGET_HAS_UDFPS := false 
 
 # Whether Including Google Apps
-WITH_GAPPS := false (Default: true)
+WITH_GAPPS := false 
 
 
 PRODUCT_NAME := lineage_camellia
