@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-TARGET_KERNEL_SOURCE :=
+TARGET_KERNEL_SOURCE := device/xiaomi/camellia/dummy_kernel
 DEVICE_PATH := device/xiaomi/camellia
 KERNEL_PATH := $(DEVICE_PATH)-kernel
 
@@ -72,7 +72,6 @@ BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2
 
 TARGET_PREBUILT_KERNEL := $(KERNEL_PATH)/$(BOARD_KERNEL_IMAGE_NAME)
-TARGET_PREBUILT_KERNEL_HEADERS := device/xiaomi/camellia/dummy_kernel
 BOARD_PREBUILT_DTBIMAGE_DIR := $(KERNEL_PATH)/dtb
 
 BOARD_VENDOR_KERNEL_MODULES_LOAD := $(strip $(shell cat $(KERNEL_PATH)/modules/vendor.modules.load))
